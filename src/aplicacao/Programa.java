@@ -24,6 +24,8 @@ public class Programa {
 			System.out.println("A subtração dos numeros é: " + (numero1 - numero2));
 		} else if(operacao.equals("/")) {
 			System.out.println("A divisao dos numeros é: " + (numero1 / numero2));
+		} else if(operacao.equals("*")) {
+			System.out.println("A multiplicação" + (numero1 * numero2));
 		}
 			
 		
