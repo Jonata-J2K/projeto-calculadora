@@ -16,11 +16,14 @@ public class Programa {
 		String operacao = sc.next();
 		System.out.print("Informe outro numero: ");
 		double numero2 = sc.nextDouble();
+		System.out.println();
 		
 		if (operacao.equals("+")) {
 			System.out.println("A soma dos numeros é: " + (numero1 + numero2));
 		} else if(operacao.equals("-")) {
 			System.out.println("A subtração dos numeros é: " + (numero1 - numero2));
+		} else if(operacao.equals("/")) {
+			System.out.println("A divisao dos numeros é: " + (numero1 / numero2));
 		}
 			
 		
