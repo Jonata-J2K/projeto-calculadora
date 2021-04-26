@@ -19,10 +19,10 @@ public class Programa {
 		System.out.print("Informe outro numero: ");
 		double numero2 = sc.nextDouble();
 		System.out.println();
+		
 		Calculadora cal = new Calculadora(numero1, numero2, operacao);
 		
 		cal.resultado();
-			
 		
 		sc.close();
 	}

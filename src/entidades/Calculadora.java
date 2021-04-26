@@ -5,7 +5,6 @@ public class Calculadora {
 	private Double numero1;
 	private Double numero2;
 	private String operacao;
-	private Double resuldato;
 	
 	public Calculadora(Double numero1, Double numero2, String operacao) {
 		this.numero1 = numero1;
