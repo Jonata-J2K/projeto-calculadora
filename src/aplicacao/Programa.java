@@ -19,6 +19,8 @@ public class Programa {
 		
 		if (operacao.equals("+")) {
 			System.out.println("A soma dos numeros é: " + (numero1 + numero2));
+		} else if(operacao.equals("-")) {
+			System.out.println("A subtração dos numeros é: " + (numero1 - numero2));
 		}
 			
 		
