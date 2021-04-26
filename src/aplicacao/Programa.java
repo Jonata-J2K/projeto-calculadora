@@ -3,6 +3,8 @@ package aplicacao;
 import java.util.Locale;
 import java.util.Scanner;
 
+import entidades.Calculadora;
+
 public class Programa {
 
 	public static void main(String[] args) {
@@ -17,16 +19,9 @@ public class Programa {
 		System.out.print("Informe outro numero: ");
 		double numero2 = sc.nextDouble();
 		System.out.println();
+		Calculadora cal = new Calculadora(numero1, numero2, operacao);
 		
-		if (operacao.equals("+")) {
-			System.out.println("A soma dos numeros é: " + (numero1 + numero2));
-		} else if(operacao.equals("-")) {
-			System.out.println("A subtração dos numeros é: " + (numero1 - numero2));
-		} else if(operacao.equals("/")) {
-			System.out.println("A divisao dos numeros é: " + (numero1 / numero2));
-		} else if(operacao.equals("*")) {
-			System.out.println("A multiplicação" + (numero1 * numero2));
-		}
+		cal.resultado();
 			
 		
 		sc.close();
